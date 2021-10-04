@@ -1,2 +1,2 @@
 # webdev
-this is a website
+this is a simple website
