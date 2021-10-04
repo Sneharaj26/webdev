@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+    font-size: 20%px;
+    background:url(marguerite-729510__480.jpg);
+    height:100vh;
+
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: rgba(139, 102, 102, 0.466);
+    border-radius: 10px;
+    
+}
+.center h1{
+    text-align: center;
+    color:rgb(24, 18, 17);
+    border-bottom:2px solid black;
+}
+.center form{
+    padding:0 40px;
+}
+form.textfield{
+    position:relative;
+    margin:30px 0;
+    color:black;
+    border-bottom:2px solid white;
+
+}
+.textfield:hover{
+    color:turquoise;
+
+}
+.textfield input{
+    width:100%px;
+    height:20px;
+    font-size: 16px;
+
+
+}
+.forpass a{
+    color:black;
+    text-decoration: none;
+    cursor:pointer;
+    padding:10px;
+
+}
+.forpass a:hover{
+    text-decoration: underline;
+    color:blueviolet;
+    transition: 0.5s;
+}
+input[type="submit"]{
+    margin:15px 10px 15px;
+    width:100%;
+    height:40px;
+    border-radius: 25px;
+    border-color: blue;
+    background:cadetblue;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor:pointer;
+
+}
+input[type="submit"]:hover{
+
+    border:2px solid blue;
+    background:cadetblue;
+    color:blue;
+    
+}
+.signup{
+    color:tomato;
+    font-size: 15px;
+    text-align: center;
+    padding:15px 0px;
+}
+.signup a{
+    color: blue;
+    text-decoration: none;
+
+}
+.signup a:hover{
+    text-decoration:underline ;
+}    
+
+
+
+
